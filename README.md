@@ -47,7 +47,7 @@ In Paraview:
 
 3) Plot over line by pressing "control + space" on your keyboard, then enter the starting and end points of interest, click apply and untick all the options besides "potential" in the check box.
 
-==============================================================================
+
 For Scintillator Monte Carlo results
 ==============================================================================
 
