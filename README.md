@@ -1,7 +1,7 @@
-===============================================================================
+
 				     READ ME 
 ESSAY: DETECTOR TECHNOLOGIES USED IN LOW AND MEDIUM ENERGY NUCLEAR TECHNOLOGIES
-===============================================================================
+
 
 Good day to whomever downloaded these simulations, each simulation that has
 been modeled and meshed can be found here, it is important to note a few important things.
