@@ -1,5 +1,6 @@
 
-				     READ ME 
+READ ME 
+==============================================================================
 ESSAY: DETECTOR TECHNOLOGIES USED IN LOW AND MEDIUM ENERGY NUCLEAR TECHNOLOGIES
 
 
@@ -8,13 +9,13 @@ been modeled and meshed can be found here, it is important to note a few importa
 
 REQUIRED SOFTWARE: PyCharm (or any other python reading IDE), Command prompt(should come with windows, just search "cmd" in the search bar), ParaView, Elmer FEM, and Elmer GUI(This one is optional, as paraview also functions as a graphical interface for viewing the models), and lastly Elmer Solver (This program will solve the electrostatic equations for all the meshed simulations)
 
-==============================================================================
+
 GENERAL WORKFLOW (For all detectors not including scintillation results (The mesh of a scintillation detector follows this however))
 ==============================================================================
  
-	=============================================================
-	In command prompt: 
-	=============================================================
+
+In command prompt: 
+=============================================================
 1) Run python to generate mesh and geometry
 
 	 cd "path to your folder that contains the detector"
@@ -36,9 +37,9 @@ GENERAL WORKFLOW (For all detectors not including scintillation results (The mes
         "C:\Elmer\Elmer <version>\bin\ElmerSolver.exe" <case>.sif >   	solve_output.txt 2>&1
         findstr "Norm WARNING Error trivially" solve_output.txt
 
-	=============================================================
-	In Paraview: 
-	=============================================================
+
+In Paraview: 
+=============================================================
 
 1) Open the generated results in paraview by going to files> PLACE WHERE DETECTOR IS STORED > results> "name of files".vtu
 
